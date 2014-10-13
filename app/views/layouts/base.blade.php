@@ -5,6 +5,7 @@
         Palmabit package samples
     @show
     </title>
+    {{HTML::style('css/style.css')}}
 </head>
 <body>
     @include('partials.header')

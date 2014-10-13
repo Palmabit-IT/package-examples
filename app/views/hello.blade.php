@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Palmabit packages sample</title>
+    {{HTML::style('css/style.css')}}
 </head>
 <body>
     <div style="margin-top:10px">
