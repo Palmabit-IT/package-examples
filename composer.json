@@ -1,7 +1,7 @@
 {
-	"name": "laravel/laravel",
-	"description": "The Laravel Framework.",
-	"keywords": ["framework", "laravel"],
+	"name": "palmabit/package-examples",
+	"description": "Various package live-examples useful for palmabit packages.",
+	"keywords": ["palmabit", "package"],
 	"license": "MIT",
 	"require": {
 		"laravel/framework": "4.2.*",
