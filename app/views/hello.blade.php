@@ -14,7 +14,7 @@
 		<h3>Packages examples: </h3>
 		<ul>
 		    <li>Catalog <i>(work in progress...)</i></li>
-		    <li>Authentication <i>(work in progress...)</i></li>
+		    <li><a href="{{URL::to('/authentication/main',false)}}">Authentication</a></li>
 		    <li><a href="{{URL::to('/multilanguage/main')}}">Multilanguage</a></li>
 		</ul>
     </div>

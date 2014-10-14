@@ -15,3 +15,13 @@ Route::get('/multilanguage/main', ['prefix' => L::get(), 'uses' =>function()
 {
     return View::make('multilanguage.main');
 }]);
+/*
+|--------------------------------------------------------------------------
+| Authentication
+|--------------------------------------------------------------------------
+|
+*/
+Route::get('/authentication/main', function()
+{
+  return View::make('authentication.main');
+});
