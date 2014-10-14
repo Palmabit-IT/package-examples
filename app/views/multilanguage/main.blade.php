@@ -58,6 +58,35 @@
         When you will be done translating you can just replace each file with the ones in app/lang folder.
 
     </p>
+
+    <h3>SEO and languages</h3>
+    <p>
+        In order to let crawlers navigate your site effectively with multiple languages, you need to setup the
+        hreflan meta tag, this package offer you that for free with the HreflangHelper class.<br/>
+        What you have to do is to use that class to get all the link for every language, at this point you can add
+        the metas in your template. here is an example:
+        code:
+        <code>
+        <br/>
+        <br/>
+        @ foreach(Palmabit\Multilanguage\Helpers\HreflangHelper::get() as $key => $link)
+            <br/>
+            &lt;link rel="alternate" href="@{{$link}}" hreflang="@{{$key}}" /&gt;
+            <br/>
+        @ endforeach
+        <br/>
+        <br/>
+        </code>
+        and Here's what you get (the anchor tag is escaped in order yo show you the tag in the screen:
+        <br/>
+        <br/>
+        <code>
+        @foreach(Palmabit\Multilanguage\Helpers\HreflangHelper::get() as $key => $link)
+        &lt;link rel="alternate" href="{{$link}}" hreflang="{{$key}}" /&gt;
+        <br/>
+        @endforeach
+        </code>
+    </p>
 @stop
 @section('scripts')
     @parent
