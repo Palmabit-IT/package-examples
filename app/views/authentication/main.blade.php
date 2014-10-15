@@ -16,7 +16,15 @@
     In order to try it run the following commands:
      <ol>
         <code><li>composer update</code></li>
-        <code><li>php artisan authentication:install</code> Note: remember to configure your app/config/database.php file first!</li>
+        <code><li>php artisan authentication:install</code> Note: remember to configure your app/config/database.php file first!
+        <br/>
+        also remember to set on your composer.json:<br/>
+         <code>
+            "minimum-stability": "dev",<br/>
+            "prefer-stable": true
+        </code>(This is needed for a dependency in way/form package)
+        </li>
+
 
      </ol>
     </p>
