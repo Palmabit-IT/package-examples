@@ -34,7 +34,7 @@
 
     <h1 id="menu">Customizable menu</h1>
     <p>
-        You can add and remove field in the menu editing the file in "app/config/packages/palmabit/authentication/menu.php". Chekc the comment in the file for more info
+        You can add and remove field in the menu editing the file in "app/config/packages/palmabit/authentication/menu.php". Check the comment in the file for more info
     </p>
 
     <h1 id="permission">User, groups and permissions crud</h1>
@@ -52,12 +52,15 @@
     </p>
     <h3>Default permissions</h3>
     <p>
-        @TODO
+        The package contain the following permissions:
         <br/>
-        _admin
-        _superadmin
-        _profile_editor
-        _mail_notification
+        <ul>
+            <li>admin: can access the admin panel and edit basic user information</li>
+            <li>superadmin: can access and edit every information</li>
+            <li>profile_editor: can edit other user's profile</li>
+            <li>mail_notification: receives mail notifications</li>
+        </ul>
+        Keep in mind thoose permissions are not set in stone! You can freely change them and editing the user and groups and the menu/permission configuration files.
     </p>
 @stop
 @section('scripts')
