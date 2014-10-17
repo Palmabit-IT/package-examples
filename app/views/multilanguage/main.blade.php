@@ -4,6 +4,15 @@
 @stop
 
 @section('content')
+    <h1>Attention!</h1>
+    In order to try it run the following commands:
+     <ol>
+        <code><li>composer update</code></li>
+        <li>Add to your service providers the following string: <code>'Palmabit\Multilanguage\MultilanguageServiceProvider'</code></li>
+        <code><li>php artisan asset:publish</code>
+        </li>
+     </ol>
+    </p>
     <h1>Multilanguage code examples:</h1>
     <h3>String translation</h3>
     <p>

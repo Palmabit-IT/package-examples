@@ -4,6 +4,25 @@
 @stop
 
 @section('content')
+    <h1>Attention!</h1>
+    In order to try it run the following commands:
+     <ol>
+        <li><code>composer update</code></li>
+        <li>
+            Add to your service providers the following string: <code>'Palmabit\Authentication\AuthenticationServiceProvider'</code></li>
+        </li>
+        <li>Run <code>php artisan authentication:install</code> Note: remember to configure your app/config/database.php file first!
+        <br/>
+        </li>
+        <li>
+        Also remember to set on your composer.json:<br/>
+         <code>
+            "minimum-stability": "dev",<br/>
+            "prefer-stable": true
+        </code>(This is needed for a dependency in way/form package)
+        </li>
+     </ol>
+    </p>
     <h1>Authentication examples:</h1>
     <p>
     The authentication package have the following features:
@@ -12,22 +31,6 @@
         <li><a href="#permission">User and permissions crud</a></li>
         <li><a href="#login">Login/Logout</a></li>
     </ul>
-    <h3>Attention!</h3>
-    In order to try it run the following commands:
-     <ol>
-        <code><li>composer update</code></li>
-        <code><li>php artisan authentication:install</code> Note: remember to configure your app/config/database.php file first!
-        <br/>
-        also remember to set on your composer.json:<br/>
-         <code>
-            "minimum-stability": "dev",<br/>
-            "prefer-stable": true
-        </code>(This is needed for a dependency in way/form package)
-        </li>
-
-
-     </ol>
-    </p>
 
     <h1 id="menu">Customizable menu</h1>
     <p>
