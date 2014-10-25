@@ -1,6 +1,6 @@
 @extends('layouts.base')
 @section('title')
-    Multilanguage package
+    Authentication package
 @stop
 
 @section('content')

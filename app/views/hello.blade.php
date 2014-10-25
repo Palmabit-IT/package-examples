@@ -13,7 +13,7 @@
 		</a>
 		<h3>Packages examples: </h3>
 		<ul>
-		    <li>Catalog <i>(work in progress...)</i></li>
+		    <li>{{link_to('/catalog/main','Catalog')}}</li>
 		    <li><a href="{{URL::to('/authentication/main',false)}}">Authentication</a></li>
 		    <li><a href="{{URL::to('/multilanguage/main',true)}}">Multilanguage</a></li>
 		</ul>

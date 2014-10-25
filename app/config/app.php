@@ -122,8 +122,8 @@ return array(
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 		'Palmabit\Multilanguage\MultilanguageServiceProvider',
-		'Palmabit\Authentication\AuthenticationServiceProvider'
-
+		'Palmabit\Authentication\AuthenticationServiceProvider',
+    'Palmabit\Catalog\CatalogServiceProvider'
 	),
 
 	/*

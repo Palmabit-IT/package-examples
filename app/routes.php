@@ -25,3 +25,13 @@ Route::get('/authentication/main', function()
 {
   return View::make('authentication.main');
 });
+/*
+|--------------------------------------------------------------------------
+| Catalog
+|--------------------------------------------------------------------------
+|
+*/
+Route::get('/catalog/main', function()
+{
+  return View::make('catalog.main');
+});
